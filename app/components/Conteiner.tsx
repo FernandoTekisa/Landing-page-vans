@@ -2,8 +2,8 @@ import Image from "next/image"
 import background from "/public/vans-backgroud.jpg"
 export default function Home() {
     return(
-        <div>
-    <section className=" flex justify-center items-center relative flex-col mt-[4rem] mx-4">
+        <div className="">
+    <section className=" flex justify-center items-center  flex-col mt-32 mx-4">
         <Image
         src={background}
         alt="container vans"
