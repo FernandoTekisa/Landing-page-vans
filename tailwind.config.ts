@@ -7,12 +7,14 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'vans':"url('../public/vans-backgroud.jpg')"
-      },
+    backgroundImage: {
+      'vans':"url('../public/vans-backgroud.jpg')"
+    },
+    extend:{
+
     },
   },
   plugins: [],
 };
+//'vans':"url('../public/vans-backgroud.jpg')"
 export default config;
