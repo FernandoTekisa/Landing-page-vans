@@ -16,7 +16,8 @@ export default function page() {
         e.preventDefault();
         setError(null)
         if (nome === "" || senha === "") {
-            setError('Ops! Formato inválido.');
+            // setError('');
+            alert("Ops! Formato invalido.")
         }else{
             route.push('/Log')
         }
