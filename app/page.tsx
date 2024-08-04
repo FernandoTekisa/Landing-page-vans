@@ -4,7 +4,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export default function page() {
+export default function Page() {
 
     const [nome,setNome] = useState("")
     const [senha,setsenha] = useState("")
@@ -16,8 +16,8 @@ export default function page() {
         e.preventDefault();
         setError(null)
         if (nome === "" || senha === "") {
-            // setError('');
-            alert("Ops! Formato invalido.")
+            // setError('Ops! Formato invalido.');
+            // alert("Ops! Formato invalido.")
         }else{
             route.push('/Log')
         }
