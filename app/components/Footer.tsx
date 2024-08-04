@@ -64,10 +64,6 @@ export function Footer() {
         <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700"/>
         
         <div className="flex flex-col items-center justify-between sm:flex-row">
-            <a href="#">
-                <img className="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt=""/>
-            </a>
-
             <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">© Copyright 2024. All Rights Reserved.By Baptista Fernando</p>
         </div>
     </div>
